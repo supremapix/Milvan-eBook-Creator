@@ -159,9 +159,13 @@ const Footer: React.FC = () => {
             &copy; {new Date().getFullYear()} Milvan eBook Creator. Todos os direitos reservados.
           </p>
           
-          <div className="flex items-center gap-1.5">
+          <div className="flex items-center gap-1.5 group select-none">
             <span>Desenvolvido com</span>
-            <Heart size={14} className="text-red-500 fill-red-500 animate-pulse-slow" aria-label="amor" />
+            <Heart 
+              size={14} 
+              className="text-red-500 fill-red-500 animate-heartbeat" 
+              aria-label="coração pulsando" 
+            />
             <span>por</span>
             <a 
               href="https://www.supremasites.top/" 
